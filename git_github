@@ -1,0 +1,17 @@
+git --version
+yum install git
+git init
+git clone https://github.com/samraty47/Git-practice01.git
+git remote add origin https://github.com/samraty47/Git-practice01.git
+cd Git-practice01/
+git status
+vim sample.txt
+git add sample.txt
+git commit -m "git practice"
+git push -u origin master
+
+you can refresh your gitlab, you will see update
+
+---------------------------
+  git log
+  git --help
